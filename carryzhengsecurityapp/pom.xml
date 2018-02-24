@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>xin.carryzheng.security</groupId>
+    <artifactId>carryzheng-security</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <groupId>xin.carryzheng.security</groupId>
+  <artifactId>carryzheng-security-app</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>carryzheng-security-app</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>xin.carryzheng.security</groupId>
+      <artifactId>carryzheng-security-core</artifactId>
+      <version>${carryzheng.security.version}</version>
+    </dependency>
+  </dependencies>
+
+</project>
