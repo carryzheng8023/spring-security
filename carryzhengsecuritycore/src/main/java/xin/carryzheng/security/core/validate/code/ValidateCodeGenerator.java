@@ -1,4 +1,4 @@
-package xin.carryzheng.security.core;
+package xin.carryzheng.security.core.validate.code;
 
 import org.springframework.web.context.request.ServletWebRequest;
 import xin.carryzheng.security.core.validate.code.ValidateCode;

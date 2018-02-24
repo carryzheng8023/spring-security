@@ -1,7 +1,7 @@
 package xin.carryzheng.code;
 
 import org.springframework.web.context.request.ServletWebRequest;
-import xin.carryzheng.security.core.ValidateCodeGenerator;
+import xin.carryzheng.security.core.validate.code.ValidateCodeGenerator;
 import xin.carryzheng.security.core.validate.code.image.ImageCode;
 
 /**

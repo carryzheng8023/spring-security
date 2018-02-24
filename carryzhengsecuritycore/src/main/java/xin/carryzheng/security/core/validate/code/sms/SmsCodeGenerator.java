@@ -4,9 +4,8 @@ import org.apache.commons.lang.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.ServletWebRequest;
-import xin.carryzheng.security.core.ValidateCodeGenerator;
+import xin.carryzheng.security.core.validate.code.ValidateCodeGenerator;
 import xin.carryzheng.security.core.properties.SecurityProperties;
-import xin.carryzheng.security.core.validate.code.sms.SmsCode;
 
 /**
  * @author zhengxin

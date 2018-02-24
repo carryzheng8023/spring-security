@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import xin.carryzheng.security.core.validate.code.image.ImageCodeGenerator;
-import xin.carryzheng.security.core.ValidateCodeGenerator;
 import xin.carryzheng.security.core.properties.SecurityProperties;
 import xin.carryzheng.security.core.validate.code.sms.DefaultSmsCodeSender;
 import xin.carryzheng.security.core.validate.code.sms.SmsCodeSender;

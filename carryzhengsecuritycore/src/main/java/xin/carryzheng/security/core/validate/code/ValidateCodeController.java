@@ -8,7 +8,6 @@ import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.ServletWebRequest;
-import xin.carryzheng.security.core.ValidateCodeGenerator;
 import xin.carryzheng.security.core.validate.code.image.ImageCode;
 import xin.carryzheng.security.core.validate.code.sms.SmsCode;
 import xin.carryzheng.security.core.validate.code.sms.SmsCodeSender;
